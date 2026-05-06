@@ -1,5 +1,5 @@
 .pageContainer {
-  background-color: #0f0f11;
+  background-color: #050505;
   color: #f4f4f5;
   min-height: 100vh;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
@@ -57,7 +57,7 @@
 }
 
 .navItem.active {
-  color: #0fd87a;
+  color: #fff;
 }
 
 .navRight {
@@ -85,9 +85,9 @@
 }
 
 .iconBtn.primary {
-  background-color: rgba(200, 150, 0, 0.2);
-  color: #eab308;
-  border-color: rgba(200, 150, 0, 0.5);
+  background-color: rgba(255,255,255,0.16);
+  color: #fff;
+  border-color: rgba(255,255,255,0.32);
 }
 
 .mainContent {
@@ -96,10 +96,18 @@
 }
 
 .logTableCard {
-  background-color: #161618;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.055) 15%, transparent 34%),
+    linear-gradient(315deg, rgba(255,255,255,0.1), transparent 32%),
+    radial-gradient(circle at 48% 0%, rgba(255,255,255,0.14), transparent 30%),
+    #000;
   border-radius: 32px;
   padding: 48px;
-  border: 1px solid rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.16);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.26),
+    inset 0 -1px 0 rgba(255,255,255,0.08),
+    0 24px 60px rgba(0,0,0,0.5);
 }
 
 .logTableHeader {
@@ -252,8 +260,8 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #0fd87a;
-  box-shadow: 0 0 8px #0fd87a;
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(255,255,255,0.8);
 }
 
 .logResource {

@@ -193,7 +193,7 @@ export default function Dashboard() {
           <div className={styles.card}>
             <div className={styles.cardTitleRow} style={{marginBottom: '16px'}}>
                <div className={styles.cardTitle} style={{fontSize: '14px', display: 'flex', alignItems: 'center', gap: '8px'}}>
-                 <span style={{color: 'var(--accent-green)'}}>📈</span> USER EFFICIENCY
+                 <span style={{color: 'var(--accent-bright)'}}>📈</span> USER EFFICIENCY
                </div>
             </div>
             <div className={styles.efficiencyText}>

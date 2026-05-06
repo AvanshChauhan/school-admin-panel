@@ -122,7 +122,7 @@ export default function LogsPage() {
                   </td>
                   <td>
                     <div className={styles.logUptime}>
-                      <span style={{color: '#0fd87a'}}>📈</span> {txn.uptime}
+                      <span style={{color: '#fff'}}>📈</span> {txn.uptime}
                     </div>
                   </td>
                   <td style={{textAlign: 'right'}}>
